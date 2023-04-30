@@ -1,0 +1,50 @@
+
+
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(3, 11, 34);
+}
+
+
+.nav-bar {
+    
+    display: flex;
+    background-color: rgb(3, 11, 34);
+    margin: 0;
+    padding: 2px 15Px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    border-bottom: 4px solid rgba(240, 3, 208, 0.26);
+    
+
+
+}
+
+.features {
+    
+    margin: auto 0px;
+}
+
+.features > ul > li {
+    color: rgb(236, 233, 11);
+    display: inline-block; 
+    margin-right: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: larger;
+    
+}
+
+
+@media (max-width: 600px) {
+
+    .features > ul > li {
+       
+        margin-left: 0.5rem;
+    }
+
+}
